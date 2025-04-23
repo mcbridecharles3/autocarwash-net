@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "handle": "miss",
+      "src": "/.*",
+      "dest": "/404.html"
+    }
+  ],
+  "include": ["/*"]
+}
